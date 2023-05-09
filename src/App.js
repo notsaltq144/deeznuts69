@@ -6,10 +6,10 @@ import { Router } from "./pages/Router";
 import { Counter } from "./pages/Counters";
 import { Items } from "./pages/items"
 import { List } from "./pages/List"
-
-
+import { TicTacToe } from "./tictactoe/TicTacToe";
 
 function App() {
+  console.log("peruna!")
   return (
     <BrowserRouter>
         <div>
@@ -18,9 +18,9 @@ function App() {
                 <Route index element={<Message />} />
                 <Route path="Buttons" element={<Buttons />} />
                 <Route path="Counters" element={<Counter />} />
-                <Route path="Items" element={<Items />}></Route>
-                <Route path="List" element={<List />}></Route>
-
+                <Route path="Items" element={<Items />} />
+                <Route path="List" element={<List />} />
+                <Route path="TicTacToe" element={<TicTacToe />} />
               </Route>
             </Routes>
         </div>

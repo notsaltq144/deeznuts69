@@ -22,6 +22,9 @@ export const Router = () => {
                     <li>
                         <Link to="/list">List </Link>
                     </li>
+                    <li>
+                        <Link to="/TicTacToe">TicTacToe </Link>
+                    </li>
                 </ul>
             </div>
 
